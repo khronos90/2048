@@ -1,0 +1,11 @@
+.block {
+	display: inline-block;
+	border: black 1px solid;
+	min-width: 40px;
+	min-height: 40px;
+	background: skyblue;
+}
+
+.block:nth-of-type(3n) {
+  background: lightblue;
+}
